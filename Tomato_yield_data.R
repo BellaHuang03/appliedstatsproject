@@ -169,6 +169,7 @@ final_clean <- final_merged %>%
     precip,
     yield = tomato_value,
     Data.Item)
+write_csv(final_clean, "final_clean.csv")
 
 ### FIGURES
 #note this is for all available counties, we may filter out to target
