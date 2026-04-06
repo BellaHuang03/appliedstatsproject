@@ -27,7 +27,7 @@ final_clean %>%
 # Distribution of temperature
 p_temp_dist <- ggplot(final_clean, aes(x = temp)) +
   geom_histogram(bins = 20, fill = "steelblue", color = "white") +
-  labs(title = "Distribution of Temperature",
+  labs(title = "Distribution of Temperature from 2013-2023 per month",
        x = "Temperature (°F)", y = "Count") +
   theme_bw()
 p_temp_dist
