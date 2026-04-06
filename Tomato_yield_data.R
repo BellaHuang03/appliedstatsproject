@@ -117,6 +117,10 @@ all_tavg <- all_df %>%
 # save as csv
 write_csv(all_df, "ca_county_tavg_2013_2023_clean.csv")
 
+# XM read in data without running code for data scraping
+#all_pcp <- read_csv(here("tavg_pcp_cleaned/ca_county_pcp_2013_2023_clean.csv"))
+#all_df <- read_csv(here("tavg_pcp_cleaned/ca_county_tavg_2013_2023_clean.csv"))
+
 ### DATA WRANGLING
 # create a list for all counties included in tomato yield data
 unique(tomato_df_2013to2023$County)
