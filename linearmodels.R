@@ -15,6 +15,7 @@ pcp_data <- read_csv(here("tavg_pcp_cleaned", "ca_county_pcp_2013_2023_clean.csv
 tavg_data <- read_csv(here("tavg_pcp_cleaned", "ca_county_tavg_2013_2023_clean.csv"))
 final_clean <- read_csv("final_clean.csv")
 
+
 # Add columns for transformed variables
 # Log transform precipitation variable
 # Add temperature squared 
@@ -206,4 +207,36 @@ p_pred_actual_temp2 <- ggplot(final_clean, aes(x = predicted_temp2, y = yield)) 
   theme_bw()
 
 p_pred_actual_temp2
+
+# Segmented temp and precip by average temp between march- June of tomato 
+# growing season 
+
+season_clean <- read_csv("season_final.csv")
+
+
+seasontemp_dist <- ggplot(season_clean, aes(x = tavg_mean)) +
+  geom_histogram(bins = 20, fill = "steelblue", color = "white") +
+  labs(title = "Distribution of Average Temperature in Growing Season from 2013-2023",
+       x = "Temperature (°F)", y = "Count") +
+  theme_bw()
+seasontemp_dist 
+
+# Distribution of precipitation
+seasonprecip_dist <- ggplot(season_clean, aes(x = pcp_mean)) +
+  geom_histogram(bins = 20, fill = "darkorange", color = "white") +
+  labs(title = "Distribution of Average Precipitation in Growgin Season from 2013-2023",
+       x = "Precipitation (in)", y = "Count") +
+  theme_bw()
+p_precip_dist
+
+
+
+# Fitting model
+
+model_season <- lm(yield ~ pcp_mean + tavg_mean, data =season_clean  )
+summary(model_season )
+
+# calculate AIC 
+AIC (model_season)
+
 
