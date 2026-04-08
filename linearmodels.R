@@ -24,6 +24,7 @@ head(final_clean)
 final_clean %>%
   count(County)
 
+
 # Distribution of temperature
 p_temp_dist <- ggplot(final_clean, aes(x = temp)) +
   geom_histogram(bins = 20, fill = "steelblue", color = "white") +
