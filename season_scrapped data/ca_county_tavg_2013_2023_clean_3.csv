@@ -1,0 +1,639 @@
+state,county_code,county_name,state_county,date,value
+CA,001,Alameda County,CA-001,201303,55.2
+CA,001,Alameda County,CA-001,201403,56.9
+CA,001,Alameda County,CA-001,201503,59.1
+CA,001,Alameda County,CA-001,201603,55.1
+CA,001,Alameda County,CA-001,201703,55.5
+CA,001,Alameda County,CA-001,201803,51.9
+CA,001,Alameda County,CA-001,201903,51.9
+CA,001,Alameda County,CA-001,202003,51.5
+CA,001,Alameda County,CA-001,202103,51.9
+CA,001,Alameda County,CA-001,202203,55.5
+CA,001,Alameda County,CA-001,202303,48.5
+CA,003,Alpine County,CA-003,201303,38.5
+CA,003,Alpine County,CA-003,201403,37.1
+CA,003,Alpine County,CA-003,201503,41.6
+CA,003,Alpine County,CA-003,201603,37.4
+CA,003,Alpine County,CA-003,201703,38
+CA,003,Alpine County,CA-003,201803,32.1
+CA,003,Alpine County,CA-003,201903,32.4
+CA,003,Alpine County,CA-003,202003,32.3
+CA,003,Alpine County,CA-003,202103,32.9
+CA,003,Alpine County,CA-003,202203,38.3
+CA,003,Alpine County,CA-003,202303,28.3
+CA,005,Amador County,CA-005,201303,53.1
+CA,005,Amador County,CA-005,201403,52.8
+CA,005,Amador County,CA-005,201503,57.1
+CA,005,Amador County,CA-005,201603,50.8
+CA,005,Amador County,CA-005,201703,51.8
+CA,005,Amador County,CA-005,201803,47.4
+CA,005,Amador County,CA-005,201903,47.4
+CA,005,Amador County,CA-005,202003,46.8
+CA,005,Amador County,CA-005,202103,47.4
+CA,005,Amador County,CA-005,202203,52.4
+CA,005,Amador County,CA-005,202303,42.7
+CA,007,Butte County,CA-007,201303,54.2
+CA,007,Butte County,CA-007,201403,54.1
+CA,007,Butte County,CA-007,201503,58.2
+CA,007,Butte County,CA-007,201603,52.7
+CA,007,Butte County,CA-007,201703,53.3
+CA,007,Butte County,CA-007,201803,49.5
+CA,007,Butte County,CA-007,201903,50
+CA,007,Butte County,CA-007,202003,50.2
+CA,007,Butte County,CA-007,202103,50.1
+CA,007,Butte County,CA-007,202203,55.6
+CA,007,Butte County,CA-007,202303,45.3
+CA,009,Calaveras County,CA-009,201303,53.6
+CA,009,Calaveras County,CA-009,201403,53.1
+CA,009,Calaveras County,CA-009,201503,57.3
+CA,009,Calaveras County,CA-009,201603,51.3
+CA,009,Calaveras County,CA-009,201703,52.2
+CA,009,Calaveras County,CA-009,201803,47.2
+CA,009,Calaveras County,CA-009,201903,47.8
+CA,009,Calaveras County,CA-009,202003,47.5
+CA,009,Calaveras County,CA-009,202103,47.7
+CA,009,Calaveras County,CA-009,202203,53
+CA,009,Calaveras County,CA-009,202303,43.1
+CA,011,Colusa County,CA-011,201303,55.5
+CA,011,Colusa County,CA-011,201403,56.5
+CA,011,Colusa County,CA-011,201503,60.2
+CA,011,Colusa County,CA-011,201603,54.7
+CA,011,Colusa County,CA-011,201703,55.2
+CA,011,Colusa County,CA-011,201803,51.4
+CA,011,Colusa County,CA-011,201903,51.3
+CA,011,Colusa County,CA-011,202003,51.8
+CA,011,Colusa County,CA-011,202103,51.6
+CA,011,Colusa County,CA-011,202203,56
+CA,011,Colusa County,CA-011,202303,46.6
+CA,013,Contra Costa County,CA-013,201303,56.4
+CA,013,Contra Costa County,CA-013,201403,57.7
+CA,013,Contra Costa County,CA-013,201503,60.8
+CA,013,Contra Costa County,CA-013,201603,55.9
+CA,013,Contra Costa County,CA-013,201703,56.6
+CA,013,Contra Costa County,CA-013,201803,52.7
+CA,013,Contra Costa County,CA-013,201903,52.8
+CA,013,Contra Costa County,CA-013,202003,52.3
+CA,013,Contra Costa County,CA-013,202103,53
+CA,013,Contra Costa County,CA-013,202203,57.3
+CA,013,Contra Costa County,CA-013,202303,48.6
+CA,015,Del Norte County,CA-015,201303,46.8
+CA,015,Del Norte County,CA-015,201403,47.2
+CA,015,Del Norte County,CA-015,201503,50.6
+CA,015,Del Norte County,CA-015,201603,45.4
+CA,015,Del Norte County,CA-015,201703,45.1
+CA,015,Del Norte County,CA-015,201803,43.8
+CA,015,Del Norte County,CA-015,201903,44.6
+CA,015,Del Norte County,CA-015,202003,43.1
+CA,015,Del Norte County,CA-015,202103,42.6
+CA,015,Del Norte County,CA-015,202203,46.4
+CA,015,Del Norte County,CA-015,202303,37.6
+CA,017,El Dorado County,CA-017,201303,48.3
+CA,017,El Dorado County,CA-017,201403,47.5
+CA,017,El Dorado County,CA-017,201503,51.9
+CA,017,El Dorado County,CA-017,201603,46.2
+CA,017,El Dorado County,CA-017,201703,47.2
+CA,017,El Dorado County,CA-017,201803,42.2
+CA,017,El Dorado County,CA-017,201903,42.4
+CA,017,El Dorado County,CA-017,202003,42.3
+CA,017,El Dorado County,CA-017,202103,42.8
+CA,017,El Dorado County,CA-017,202203,47.8
+CA,017,El Dorado County,CA-017,202303,37.8
+CA,019,Fresno County,CA-019,201303,51
+CA,019,Fresno County,CA-019,201403,51.1
+CA,019,Fresno County,CA-019,201503,54.4
+CA,019,Fresno County,CA-019,201603,49.1
+CA,019,Fresno County,CA-019,201703,49.2
+CA,019,Fresno County,CA-019,201803,45.5
+CA,019,Fresno County,CA-019,201903,45.7
+CA,019,Fresno County,CA-019,202003,44.8
+CA,019,Fresno County,CA-019,202103,45.1
+CA,019,Fresno County,CA-019,202203,49.8
+CA,019,Fresno County,CA-019,202303,41.4
+CA,021,Glenn County,CA-021,201303,54.3
+CA,021,Glenn County,CA-021,201403,54.6
+CA,021,Glenn County,CA-021,201503,58.2
+CA,021,Glenn County,CA-021,201603,52.5
+CA,021,Glenn County,CA-021,201703,52.8
+CA,021,Glenn County,CA-021,201803,49
+CA,021,Glenn County,CA-021,201903,49.6
+CA,021,Glenn County,CA-021,202003,50.2
+CA,021,Glenn County,CA-021,202103,50.1
+CA,021,Glenn County,CA-021,202203,54.9
+CA,021,Glenn County,CA-021,202303,45.1
+CA,023,Humboldt County,CA-023,201303,48.4
+CA,023,Humboldt County,CA-023,201403,50.1
+CA,023,Humboldt County,CA-023,201503,52.2
+CA,023,Humboldt County,CA-023,201603,49.5
+CA,023,Humboldt County,CA-023,201703,49
+CA,023,Humboldt County,CA-023,201803,47
+CA,023,Humboldt County,CA-023,201903,47
+CA,023,Humboldt County,CA-023,202003,46.2
+CA,023,Humboldt County,CA-023,202103,45.2
+CA,023,Humboldt County,CA-023,202203,48.8
+CA,023,Humboldt County,CA-023,202303,41.6
+CA,025,Imperial County,CA-025,201303,69.8
+CA,025,Imperial County,CA-025,201403,68.7
+CA,025,Imperial County,CA-025,201503,71.6
+CA,025,Imperial County,CA-025,201603,68.2
+CA,025,Imperial County,CA-025,201703,70.7
+CA,025,Imperial County,CA-025,201803,65.4
+CA,025,Imperial County,CA-025,201903,64.5
+CA,025,Imperial County,CA-025,202003,62.2
+CA,025,Imperial County,CA-025,202103,62.6
+CA,025,Imperial County,CA-025,202203,67.6
+CA,025,Imperial County,CA-025,202303,62
+CA,027,Inyo County,CA-027,201303,56.2
+CA,027,Inyo County,CA-027,201403,54.1
+CA,027,Inyo County,CA-027,201503,57.7
+CA,027,Inyo County,CA-027,201603,53.8
+CA,027,Inyo County,CA-027,201703,55.3
+CA,027,Inyo County,CA-027,201803,49.5
+CA,027,Inyo County,CA-027,201903,49.4
+CA,027,Inyo County,CA-027,202003,47.8
+CA,027,Inyo County,CA-027,202103,48.6
+CA,027,Inyo County,CA-027,202203,53.7
+CA,027,Inyo County,CA-027,202303,43.9
+CA,029,Kern County,CA-029,201303,57.3
+CA,029,Kern County,CA-029,201403,57
+CA,029,Kern County,CA-029,201503,59.9
+CA,029,Kern County,CA-029,201603,55.8
+CA,029,Kern County,CA-029,201703,56
+CA,029,Kern County,CA-029,201803,52.5
+CA,029,Kern County,CA-029,201903,51.8
+CA,029,Kern County,CA-029,202003,50.8
+CA,029,Kern County,CA-029,202103,51.1
+CA,029,Kern County,CA-029,202203,55.6
+CA,029,Kern County,CA-029,202303,47.2
+CA,031,Kings County,CA-031,201303,59.4
+CA,031,Kings County,CA-031,201403,60.6
+CA,031,Kings County,CA-031,201503,63.5
+CA,031,Kings County,CA-031,201603,58.4
+CA,031,Kings County,CA-031,201703,57.7
+CA,031,Kings County,CA-031,201803,55.4
+CA,031,Kings County,CA-031,201903,55.9
+CA,031,Kings County,CA-031,202003,54.5
+CA,031,Kings County,CA-031,202103,54.5
+CA,031,Kings County,CA-031,202203,58.8
+CA,031,Kings County,CA-031,202303,52.2
+CA,033,Lake County,CA-033,201303,50.7
+CA,033,Lake County,CA-033,201403,51.6
+CA,033,Lake County,CA-033,201503,55.7
+CA,033,Lake County,CA-033,201603,49.3
+CA,033,Lake County,CA-033,201703,50.5
+CA,033,Lake County,CA-033,201803,46.4
+CA,033,Lake County,CA-033,201903,46.3
+CA,033,Lake County,CA-033,202003,46.2
+CA,033,Lake County,CA-033,202103,46.5
+CA,033,Lake County,CA-033,202203,51.2
+CA,033,Lake County,CA-033,202303,41.1
+CA,035,Lassen County,CA-035,201303,41.3
+CA,035,Lassen County,CA-035,201403,40.3
+CA,035,Lassen County,CA-035,201503,44.9
+CA,035,Lassen County,CA-035,201603,39.8
+CA,035,Lassen County,CA-035,201703,40.9
+CA,035,Lassen County,CA-035,201803,35.4
+CA,035,Lassen County,CA-035,201903,35.9
+CA,035,Lassen County,CA-035,202003,36.1
+CA,035,Lassen County,CA-035,202103,36.5
+CA,035,Lassen County,CA-035,202203,41.1
+CA,035,Lassen County,CA-035,202303,30
+CA,037,Los Angeles County,CA-037,201303,58.2
+CA,037,Los Angeles County,CA-037,201403,58
+CA,037,Los Angeles County,CA-037,201503,61.9
+CA,037,Los Angeles County,CA-037,201603,57.1
+CA,037,Los Angeles County,CA-037,201703,58.6
+CA,037,Los Angeles County,CA-037,201803,53.4
+CA,037,Los Angeles County,CA-037,201903,52.9
+CA,037,Los Angeles County,CA-037,202003,51.1
+CA,037,Los Angeles County,CA-037,202103,51.9
+CA,037,Los Angeles County,CA-037,202203,56.8
+CA,037,Los Angeles County,CA-037,202303,48.5
+CA,039,Madera County,CA-039,201303,51.7
+CA,039,Madera County,CA-039,201403,51.5
+CA,039,Madera County,CA-039,201503,54.8
+CA,039,Madera County,CA-039,201603,49.8
+CA,039,Madera County,CA-039,201703,49.7
+CA,039,Madera County,CA-039,201803,46.2
+CA,039,Madera County,CA-039,201903,46.3
+CA,039,Madera County,CA-039,202003,45.7
+CA,039,Madera County,CA-039,202103,45.6
+CA,039,Madera County,CA-039,202203,50.5
+CA,039,Madera County,CA-039,202303,42.4
+CA,041,Marin County,CA-041,201303,53.5
+CA,041,Marin County,CA-041,201403,55.7
+CA,041,Marin County,CA-041,201503,57.3
+CA,041,Marin County,CA-041,201603,53.8
+CA,041,Marin County,CA-041,201703,54.4
+CA,041,Marin County,CA-041,201803,51
+CA,041,Marin County,CA-041,201903,51.5
+CA,041,Marin County,CA-041,202003,51.2
+CA,041,Marin County,CA-041,202103,50.9
+CA,041,Marin County,CA-041,202203,53.6
+CA,041,Marin County,CA-041,202303,47.5
+CA,043,Mariposa County,CA-043,201303,49.7
+CA,043,Mariposa County,CA-043,201403,49.7
+CA,043,Mariposa County,CA-043,201503,53.7
+CA,043,Mariposa County,CA-043,201603,48
+CA,043,Mariposa County,CA-043,201703,48.7
+CA,043,Mariposa County,CA-043,201803,44
+CA,043,Mariposa County,CA-043,201903,44.4
+CA,043,Mariposa County,CA-043,202003,43.5
+CA,043,Mariposa County,CA-043,202103,43.6
+CA,043,Mariposa County,CA-043,202203,48.8
+CA,043,Mariposa County,CA-043,202303,39.9
+CA,045,Mendocino County,CA-045,201303,50
+CA,045,Mendocino County,CA-045,201403,51.1
+CA,045,Mendocino County,CA-045,201503,54.4
+CA,045,Mendocino County,CA-045,201603,50
+CA,045,Mendocino County,CA-045,201703,50.5
+CA,045,Mendocino County,CA-045,201803,47
+CA,045,Mendocino County,CA-045,201903,47.4
+CA,045,Mendocino County,CA-045,202003,46.9
+CA,045,Mendocino County,CA-045,202103,46.2
+CA,045,Mendocino County,CA-045,202203,51.5
+CA,045,Mendocino County,CA-045,202303,42.6
+CA,047,Merced County,CA-047,201303,58.4
+CA,047,Merced County,CA-047,201403,58.8
+CA,047,Merced County,CA-047,201503,61.6
+CA,047,Merced County,CA-047,201603,57
+CA,047,Merced County,CA-047,201703,57.4
+CA,047,Merced County,CA-047,201803,54
+CA,047,Merced County,CA-047,201903,54.2
+CA,047,Merced County,CA-047,202003,52.9
+CA,047,Merced County,CA-047,202103,52.7
+CA,047,Merced County,CA-047,202203,57.4
+CA,047,Merced County,CA-047,202303,50.4
+CA,049,Modoc County,CA-049,201303,40.6
+CA,049,Modoc County,CA-049,201403,40.2
+CA,049,Modoc County,CA-049,201503,45.1
+CA,049,Modoc County,CA-049,201603,40
+CA,049,Modoc County,CA-049,201703,40.9
+CA,049,Modoc County,CA-049,201803,36
+CA,049,Modoc County,CA-049,201903,36.4
+CA,049,Modoc County,CA-049,202003,37.1
+CA,049,Modoc County,CA-049,202103,37.1
+CA,049,Modoc County,CA-049,202203,41.7
+CA,049,Modoc County,CA-049,202303,29.9
+CA,051,Mono County,CA-051,201303,39.7
+CA,051,Mono County,CA-051,201403,37.2
+CA,051,Mono County,CA-051,201503,41.4
+CA,051,Mono County,CA-051,201603,38.6
+CA,051,Mono County,CA-051,201703,37.8
+CA,051,Mono County,CA-051,201803,32.2
+CA,051,Mono County,CA-051,201903,32.7
+CA,051,Mono County,CA-051,202003,32.1
+CA,051,Mono County,CA-051,202103,32.8
+CA,051,Mono County,CA-051,202203,37.7
+CA,051,Mono County,CA-051,202303,26.4
+CA,053,Monterey County,CA-053,201303,54.7
+CA,053,Monterey County,CA-053,201403,55.9
+CA,053,Monterey County,CA-053,201503,58.7
+CA,053,Monterey County,CA-053,201603,54.4
+CA,053,Monterey County,CA-053,201703,54.8
+CA,053,Monterey County,CA-053,201803,51.5
+CA,053,Monterey County,CA-053,201903,51.6
+CA,053,Monterey County,CA-053,202003,50.3
+CA,053,Monterey County,CA-053,202103,49.8
+CA,053,Monterey County,CA-053,202203,53.2
+CA,053,Monterey County,CA-053,202303,48
+CA,055,Napa County,CA-055,201303,54.1
+CA,055,Napa County,CA-055,201403,56
+CA,055,Napa County,CA-055,201503,58.6
+CA,055,Napa County,CA-055,201603,53.9
+CA,055,Napa County,CA-055,201703,54.8
+CA,055,Napa County,CA-055,201803,50.7
+CA,055,Napa County,CA-055,201903,51.4
+CA,055,Napa County,CA-055,202003,51.2
+CA,055,Napa County,CA-055,202103,51.1
+CA,055,Napa County,CA-055,202203,55
+CA,055,Napa County,CA-055,202303,46.9
+CA,057,Nevada County,CA-057,201303,46.8
+CA,057,Nevada County,CA-057,201403,46.3
+CA,057,Nevada County,CA-057,201503,50.7
+CA,057,Nevada County,CA-057,201603,44.6
+CA,057,Nevada County,CA-057,201703,45.4
+CA,057,Nevada County,CA-057,201803,40.6
+CA,057,Nevada County,CA-057,201903,40.8
+CA,057,Nevada County,CA-057,202003,41
+CA,057,Nevada County,CA-057,202103,41.6
+CA,057,Nevada County,CA-057,202203,47
+CA,057,Nevada County,CA-057,202303,36
+CA,059,Orange County,CA-059,201303,59.5
+CA,059,Orange County,CA-059,201403,61.6
+CA,059,Orange County,CA-059,201503,66.2
+CA,059,Orange County,CA-059,201603,60.6
+CA,059,Orange County,CA-059,201703,62.4
+CA,059,Orange County,CA-059,201803,58.3
+CA,059,Orange County,CA-059,201903,58
+CA,059,Orange County,CA-059,202003,56.6
+CA,059,Orange County,CA-059,202103,56.3
+CA,059,Orange County,CA-059,202203,60.8
+CA,059,Orange County,CA-059,202303,53.6
+CA,061,Placer County,CA-061,201303,48.2
+CA,061,Placer County,CA-061,201403,47.8
+CA,061,Placer County,CA-061,201503,51.8
+CA,061,Placer County,CA-061,201603,46.4
+CA,061,Placer County,CA-061,201703,47.1
+CA,061,Placer County,CA-061,201803,42.3
+CA,061,Placer County,CA-061,201903,42.6
+CA,061,Placer County,CA-061,202003,42.5
+CA,061,Placer County,CA-061,202103,43.1
+CA,061,Placer County,CA-061,202203,47.9
+CA,061,Placer County,CA-061,202303,37.9
+CA,063,Plumas County,CA-063,201303,42
+CA,063,Plumas County,CA-063,201403,40.6
+CA,063,Plumas County,CA-063,201503,45
+CA,063,Plumas County,CA-063,201603,40.2
+CA,063,Plumas County,CA-063,201703,40.5
+CA,063,Plumas County,CA-063,201803,35.2
+CA,063,Plumas County,CA-063,201903,36
+CA,063,Plumas County,CA-063,202003,36
+CA,063,Plumas County,CA-063,202103,37
+CA,063,Plumas County,CA-063,202203,41.6
+CA,063,Plumas County,CA-063,202303,30.4
+CA,065,Riverside County,CA-065,201303,64
+CA,065,Riverside County,CA-065,201403,63.1
+CA,065,Riverside County,CA-065,201503,65.9
+CA,065,Riverside County,CA-065,201603,63
+CA,065,Riverside County,CA-065,201703,64.6
+CA,065,Riverside County,CA-065,201803,59.7
+CA,065,Riverside County,CA-065,201903,58.7
+CA,065,Riverside County,CA-065,202003,56.5
+CA,065,Riverside County,CA-065,202103,56.6
+CA,065,Riverside County,CA-065,202203,62.2
+CA,065,Riverside County,CA-065,202303,54.9
+CA,067,Sacramento County,CA-067,201303,57.7
+CA,067,Sacramento County,CA-067,201403,58.9
+CA,067,Sacramento County,CA-067,201503,61.6
+CA,067,Sacramento County,CA-067,201603,57.2
+CA,067,Sacramento County,CA-067,201703,57.4
+CA,067,Sacramento County,CA-067,201803,53.8
+CA,067,Sacramento County,CA-067,201903,54.3
+CA,067,Sacramento County,CA-067,202003,54.2
+CA,067,Sacramento County,CA-067,202103,53.8
+CA,067,Sacramento County,CA-067,202203,58.2
+CA,067,Sacramento County,CA-067,202303,50.6
+CA,069,San Benito County,CA-069,201303,54.4
+CA,069,San Benito County,CA-069,201403,55.2
+CA,069,San Benito County,CA-069,201503,58.6
+CA,069,San Benito County,CA-069,201603,53.1
+CA,069,San Benito County,CA-069,201703,53.7
+CA,069,San Benito County,CA-069,201803,49.7
+CA,069,San Benito County,CA-069,201903,49.6
+CA,069,San Benito County,CA-069,202003,48.5
+CA,069,San Benito County,CA-069,202103,48.6
+CA,069,San Benito County,CA-069,202203,52.3
+CA,069,San Benito County,CA-069,202303,45.6
+CA,071,San Bernardino County,CA-071,201303,62.1
+CA,071,San Bernardino County,CA-071,201403,60.6
+CA,071,San Bernardino County,CA-071,201503,63.8
+CA,071,San Bernardino County,CA-071,201603,60.6
+CA,071,San Bernardino County,CA-071,201703,62
+CA,071,San Bernardino County,CA-071,201803,56.7
+CA,071,San Bernardino County,CA-071,201903,55.6
+CA,071,San Bernardino County,CA-071,202003,54.1
+CA,071,San Bernardino County,CA-071,202103,54.5
+CA,071,San Bernardino County,CA-071,202203,59.7
+CA,071,San Bernardino County,CA-071,202303,51.2
+CA,073,San Diego County,CA-073,201303,58.8
+CA,073,San Diego County,CA-073,201403,58.9
+CA,073,San Diego County,CA-073,201503,62.2
+CA,073,San Diego County,CA-073,201603,58.1
+CA,073,San Diego County,CA-073,201703,60.2
+CA,073,San Diego County,CA-073,201803,55.6
+CA,073,San Diego County,CA-073,201903,54.7
+CA,073,San Diego County,CA-073,202003,52.9
+CA,073,San Diego County,CA-073,202103,52.8
+CA,073,San Diego County,CA-073,202203,57.4
+CA,073,San Diego County,CA-073,202303,50.6
+CA,075,San Francisco County,CA-075,201303,53.9
+CA,075,San Francisco County,CA-075,201403,57.9
+CA,075,San Francisco County,CA-075,201503,58.7
+CA,075,San Francisco County,CA-075,201603,55.8
+CA,075,San Francisco County,CA-075,201703,56.3
+CA,075,San Francisco County,CA-075,201803,53.3
+CA,075,San Francisco County,CA-075,201903,53.5
+CA,075,San Francisco County,CA-075,202003,53.2
+CA,075,San Francisco County,CA-075,202103,52.4
+CA,075,San Francisco County,CA-075,202203,54
+CA,075,San Francisco County,CA-075,202303,49.4
+CA,077,San Joaquin County,CA-077,201303,57.4
+CA,077,San Joaquin County,CA-077,201403,58.8
+CA,077,San Joaquin County,CA-077,201503,61.6
+CA,077,San Joaquin County,CA-077,201603,57.4
+CA,077,San Joaquin County,CA-077,201703,57.9
+CA,077,San Joaquin County,CA-077,201803,54.8
+CA,077,San Joaquin County,CA-077,201903,54.8
+CA,077,San Joaquin County,CA-077,202003,54.6
+CA,077,San Joaquin County,CA-077,202103,54
+CA,077,San Joaquin County,CA-077,202203,58.7
+CA,077,San Joaquin County,CA-077,202303,51.2
+CA,079,San Luis Obispo County,CA-079,201303,56
+CA,079,San Luis Obispo County,CA-079,201403,56.6
+CA,079,San Luis Obispo County,CA-079,201503,59
+CA,079,San Luis Obispo County,CA-079,201603,54.9
+CA,079,San Luis Obispo County,CA-079,201703,55
+CA,079,San Luis Obispo County,CA-079,201803,52.1
+CA,079,San Luis Obispo County,CA-079,201903,51.4
+CA,079,San Luis Obispo County,CA-079,202003,50.6
+CA,079,San Luis Obispo County,CA-079,202103,50
+CA,079,San Luis Obispo County,CA-079,202203,54.4
+CA,079,San Luis Obispo County,CA-079,202303,48.1
+CA,081,San Mateo County,CA-081,201303,53.9
+CA,081,San Mateo County,CA-081,201403,56.3
+CA,081,San Mateo County,CA-081,201503,57.5
+CA,081,San Mateo County,CA-081,201603,54.9
+CA,081,San Mateo County,CA-081,201703,55
+CA,081,San Mateo County,CA-081,201803,52.4
+CA,081,San Mateo County,CA-081,201903,52.3
+CA,081,San Mateo County,CA-081,202003,52.4
+CA,081,San Mateo County,CA-081,202103,51
+CA,081,San Mateo County,CA-081,202203,53.2
+CA,081,San Mateo County,CA-081,202303,48.7
+CA,083,Santa Barbara County,CA-083,201303,54.1
+CA,083,Santa Barbara County,CA-083,201403,56
+CA,083,Santa Barbara County,CA-083,201503,58.9
+CA,083,Santa Barbara County,CA-083,201603,54.7
+CA,083,Santa Barbara County,CA-083,201703,55.3
+CA,083,Santa Barbara County,CA-083,201803,51.5
+CA,083,Santa Barbara County,CA-083,201903,51.4
+CA,083,Santa Barbara County,CA-083,202003,50.4
+CA,083,Santa Barbara County,CA-083,202103,49.9
+CA,083,Santa Barbara County,CA-083,202203,54.6
+CA,083,Santa Barbara County,CA-083,202303,47.8
+CA,085,Santa Clara County,CA-085,201303,54.5
+CA,085,Santa Clara County,CA-085,201403,55.5
+CA,085,Santa Clara County,CA-085,201503,58.4
+CA,085,Santa Clara County,CA-085,201603,53.9
+CA,085,Santa Clara County,CA-085,201703,54.5
+CA,085,Santa Clara County,CA-085,201803,50.8
+CA,085,Santa Clara County,CA-085,201903,50.6
+CA,085,Santa Clara County,CA-085,202003,49.9
+CA,085,Santa Clara County,CA-085,202103,49.4
+CA,085,Santa Clara County,CA-085,202203,53.5
+CA,085,Santa Clara County,CA-085,202303,46.3
+CA,087,Santa Cruz County,CA-087,201303,54.8
+CA,087,Santa Cruz County,CA-087,201403,56.4
+CA,087,Santa Cruz County,CA-087,201503,58.6
+CA,087,Santa Cruz County,CA-087,201603,55
+CA,087,Santa Cruz County,CA-087,201703,54.9
+CA,087,Santa Cruz County,CA-087,201803,52.2
+CA,087,Santa Cruz County,CA-087,201903,52.3
+CA,087,Santa Cruz County,CA-087,202003,52
+CA,087,Santa Cruz County,CA-087,202103,50.5
+CA,087,Santa Cruz County,CA-087,202203,52.9
+CA,087,Santa Cruz County,CA-087,202303,48.6
+CA,089,Shasta County,CA-089,201303,49.1
+CA,089,Shasta County,CA-089,201403,48.2
+CA,089,Shasta County,CA-089,201503,53
+CA,089,Shasta County,CA-089,201603,47.4
+CA,089,Shasta County,CA-089,201703,47.9
+CA,089,Shasta County,CA-089,201803,43.5
+CA,089,Shasta County,CA-089,201903,44
+CA,089,Shasta County,CA-089,202003,44.4
+CA,089,Shasta County,CA-089,202103,44.8
+CA,089,Shasta County,CA-089,202203,50.2
+CA,089,Shasta County,CA-089,202303,38.4
+CA,091,Sierra County,CA-091,201303,41.7
+CA,091,Sierra County,CA-091,201403,40.9
+CA,091,Sierra County,CA-091,201503,45
+CA,091,Sierra County,CA-091,201603,40
+CA,091,Sierra County,CA-091,201703,40.6
+CA,091,Sierra County,CA-091,201803,35.1
+CA,091,Sierra County,CA-091,201903,36.1
+CA,091,Sierra County,CA-091,202003,35.6
+CA,091,Sierra County,CA-091,202103,36.6
+CA,091,Sierra County,CA-091,202203,41.7
+CA,091,Sierra County,CA-091,202303,30.6
+CA,093,Siskiyou County,CA-093,201303,43
+CA,093,Siskiyou County,CA-093,201403,42.6
+CA,093,Siskiyou County,CA-093,201503,46.8
+CA,093,Siskiyou County,CA-093,201603,41.3
+CA,093,Siskiyou County,CA-093,201703,42.1
+CA,093,Siskiyou County,CA-093,201803,38.4
+CA,093,Siskiyou County,CA-093,201903,39
+CA,093,Siskiyou County,CA-093,202003,39
+CA,093,Siskiyou County,CA-093,202103,39
+CA,093,Siskiyou County,CA-093,202203,43.5
+CA,093,Siskiyou County,CA-093,202303,32.7
+CA,095,Solano County,CA-095,201303,56.7
+CA,095,Solano County,CA-095,201403,58.4
+CA,095,Solano County,CA-095,201503,60.5
+CA,095,Solano County,CA-095,201603,56.6
+CA,095,Solano County,CA-095,201703,57.1
+CA,095,Solano County,CA-095,201803,53.2
+CA,095,Solano County,CA-095,201903,54.1
+CA,095,Solano County,CA-095,202003,53.6
+CA,095,Solano County,CA-095,202103,53.7
+CA,095,Solano County,CA-095,202203,57.6
+CA,095,Solano County,CA-095,202303,49.9
+CA,097,Sonoma County,CA-097,201303,52.7
+CA,097,Sonoma County,CA-097,201403,54.9
+CA,097,Sonoma County,CA-097,201503,57.4
+CA,097,Sonoma County,CA-097,201603,52.9
+CA,097,Sonoma County,CA-097,201703,54
+CA,097,Sonoma County,CA-097,201803,50
+CA,097,Sonoma County,CA-097,201903,50.7
+CA,097,Sonoma County,CA-097,202003,50.2
+CA,097,Sonoma County,CA-097,202103,49.5
+CA,097,Sonoma County,CA-097,202203,53.6
+CA,097,Sonoma County,CA-097,202303,46.3
+CA,099,Stanislaus County,CA-099,201303,57
+CA,099,Stanislaus County,CA-099,201403,57.6
+CA,099,Stanislaus County,CA-099,201503,60.6
+CA,099,Stanislaus County,CA-099,201603,55.8
+CA,099,Stanislaus County,CA-099,201703,57
+CA,099,Stanislaus County,CA-099,201803,53.5
+CA,099,Stanislaus County,CA-099,201903,53.7
+CA,099,Stanislaus County,CA-099,202003,52
+CA,099,Stanislaus County,CA-099,202103,52.4
+CA,099,Stanislaus County,CA-099,202203,57
+CA,099,Stanislaus County,CA-099,202303,49.5
+CA,101,Sutter County,CA-101,201303,58
+CA,101,Sutter County,CA-101,201403,58.7
+CA,101,Sutter County,CA-101,201503,61.8
+CA,101,Sutter County,CA-101,201603,57.3
+CA,101,Sutter County,CA-101,201703,57.8
+CA,101,Sutter County,CA-101,201803,54.1
+CA,101,Sutter County,CA-101,201903,54.2
+CA,101,Sutter County,CA-101,202003,54.5
+CA,101,Sutter County,CA-101,202103,53.9
+CA,101,Sutter County,CA-101,202203,58.4
+CA,101,Sutter County,CA-101,202303,50.5
+CA,103,Tehama County,CA-103,201303,52.7
+CA,103,Tehama County,CA-103,201403,52
+CA,103,Tehama County,CA-103,201503,56.8
+CA,103,Tehama County,CA-103,201603,50.6
+CA,103,Tehama County,CA-103,201703,51.3
+CA,103,Tehama County,CA-103,201803,47.3
+CA,103,Tehama County,CA-103,201903,47.6
+CA,103,Tehama County,CA-103,202003,48.1
+CA,103,Tehama County,CA-103,202103,48.3
+CA,103,Tehama County,CA-103,202203,53.6
+CA,103,Tehama County,CA-103,202303,42.5
+CA,105,Trinity County,CA-105,201303,46.6
+CA,105,Trinity County,CA-105,201403,46.3
+CA,105,Trinity County,CA-105,201503,50.8
+CA,105,Trinity County,CA-105,201603,45.1
+CA,105,Trinity County,CA-105,201703,45.8
+CA,105,Trinity County,CA-105,201803,42.1
+CA,105,Trinity County,CA-105,201903,42.7
+CA,105,Trinity County,CA-105,202003,42.5
+CA,105,Trinity County,CA-105,202103,42.6
+CA,105,Trinity County,CA-105,202203,47.2
+CA,105,Trinity County,CA-105,202303,36.6
+CA,107,Tulare County,CA-107,201303,49.4
+CA,107,Tulare County,CA-107,201403,49.2
+CA,107,Tulare County,CA-107,201503,52.5
+CA,107,Tulare County,CA-107,201603,47.4
+CA,107,Tulare County,CA-107,201703,47.8
+CA,107,Tulare County,CA-107,201803,43.9
+CA,107,Tulare County,CA-107,201903,43.8
+CA,107,Tulare County,CA-107,202003,42.8
+CA,107,Tulare County,CA-107,202103,43.3
+CA,107,Tulare County,CA-107,202203,48.6
+CA,107,Tulare County,CA-107,202303,39.4
+CA,109,Tuolumne County,CA-109,201303,44.6
+CA,109,Tuolumne County,CA-109,201403,43.9
+CA,109,Tuolumne County,CA-109,201503,48.1
+CA,109,Tuolumne County,CA-109,201603,43
+CA,109,Tuolumne County,CA-109,201703,43.8
+CA,109,Tuolumne County,CA-109,201803,38
+CA,109,Tuolumne County,CA-109,201903,38.9
+CA,109,Tuolumne County,CA-109,202003,38.2
+CA,109,Tuolumne County,CA-109,202103,38.7
+CA,109,Tuolumne County,CA-109,202203,43.8
+CA,109,Tuolumne County,CA-109,202303,33.4
+CA,111,Ventura County,CA-111,201303,53.9
+CA,111,Ventura County,CA-111,201403,54.5
+CA,111,Ventura County,CA-111,201503,57.6
+CA,111,Ventura County,CA-111,201603,52.7
+CA,111,Ventura County,CA-111,201703,54.2
+CA,111,Ventura County,CA-111,201803,49.6
+CA,111,Ventura County,CA-111,201903,49.8
+CA,111,Ventura County,CA-111,202003,48
+CA,111,Ventura County,CA-111,202103,47.9
+CA,111,Ventura County,CA-111,202203,53
+CA,111,Ventura County,CA-111,202303,45.7
+CA,113,Yolo County,CA-113,201303,56.7
+CA,113,Yolo County,CA-113,201403,58.2
+CA,113,Yolo County,CA-113,201503,60.5
+CA,113,Yolo County,CA-113,201603,56.4
+CA,113,Yolo County,CA-113,201703,56.9
+CA,113,Yolo County,CA-113,201803,52.6
+CA,113,Yolo County,CA-113,201903,53.4
+CA,113,Yolo County,CA-113,202003,53.1
+CA,113,Yolo County,CA-113,202103,53.4
+CA,113,Yolo County,CA-113,202203,57.2
+CA,113,Yolo County,CA-113,202303,49.1
+CA,115,Yuba County,CA-115,201303,55.5
+CA,115,Yuba County,CA-115,201403,55.7
+CA,115,Yuba County,CA-115,201503,59.2
+CA,115,Yuba County,CA-115,201603,53.7
+CA,115,Yuba County,CA-115,201703,54.8
+CA,115,Yuba County,CA-115,201803,50.6
+CA,115,Yuba County,CA-115,201903,50.8
+CA,115,Yuba County,CA-115,202003,50.7
+CA,115,Yuba County,CA-115,202103,51.2
+CA,115,Yuba County,CA-115,202203,56.5
+CA,115,Yuba County,CA-115,202303,46.5
