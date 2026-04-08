@@ -23,6 +23,8 @@ final_clean <- final_clean %>%
   mutate(precip_log = log(precip_add_1)) %>% 
   mutate(temp_squared = temp^2)
 
+
+
 # data structure exploring
 str(final_clean)
 summary(final_clean)
@@ -139,67 +141,4 @@ p_yield_county_time <- ggplot(final_clean, aes(x = year, y = yield, color = Coun
 
 p_yield_county_time
 
-## fit linear model
-model_both <- lm(yield ~ temp + precip, data = final_clean)
-summary(model_both)
-
-# Residual diagnostic plots (4 plots)
-par(mfrow = c(2, 2))
-plot(model_both)
-par(mfrow = c(1, 1))
-
-# Predicted vs. Actual
-final_clean$predicted <- predict(model_both)
-
-p_pred_actual <- ggplot(final_clean, aes(x = predicted, y = yield)) +
-  geom_point(alpha = 0.6) +
-  geom_smooth(method = "lm", se = TRUE, color = "red") +
-  labs(title = "Predicted vs. Actual Yield",
-       x = "Predicted Yield (Temp + Precip)", y = "Actual Yield") +
-  theme_bw()
-
-p_pred_actual
-
-## fit linear model with precip log transformed
-model_both_precip_log <- lm(yield ~ temp + precip_log, data = final_clean)
-summary(model_both_precip_log)
-
-# Residual diagnostic plots (4 plots)
-par(mfrow = c(2, 2))
-plot(model_both_precip_log)
-par(mfrow = c(1, 1))
-
-# Predicted vs. Actual
-final_clean$predicted_precip_log <- predict(model_both_precip_log)
-
-p_pred_actual_prec_log <- ggplot(final_clean, aes(x = predicted_precip_log, y = yield)) +
-  geom_point(alpha = 0.6) +
-  geom_smooth(method = "lm", se = TRUE, color = "red") +
-  labs(title = "Predicted vs. Actual Yield",
-       x = "Predicted Yield (Temp + Precip)", y = "Actual Yield") +
-  theme_bw()
-
-p_pred_actual_prec_log
-
-
-## fit linear model with temp squared
-model_both_temp2 <- lm(yield ~ temp_squared + precip_log, data = final_clean)
-summary(model_both_temp2)
-
-# Residual diagnostic plots (4 plots)
-par(mfrow = c(2, 2))
-plot(model_both_temp2)
-par(mfrow = c(1, 1))
-
-# Predicted vs. Actual
-final_clean$predicted_temp2 <- predict(model_both_temp2)
-
-p_pred_actual_temp2 <- ggplot(final_clean, aes(x = predicted_temp2, y = yield)) +
-  geom_point(alpha = 0.6) +
-  geom_smooth(method = "lm", se = TRUE, color = "red") +
-  labs(title = "Predicted vs. Actual Yield",
-       x = "Predicted Yield (Temp + Precip)", y = "Actual Yield") +
-  theme_bw()
-
-p_pred_actual_temp2
 
