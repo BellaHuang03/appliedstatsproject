@@ -9,6 +9,7 @@ library(janitor)
 library(ggplot2)
 library(patchwork)
 library(ggpmisc)
+library(nlme)
 
 ### read datasets
 pcp_data <- read_csv(here("tavg_pcp_cleaned", "ca_county_pcp_2013_2023_clean.csv"))
@@ -140,5 +141,115 @@ p_yield_county_time <- ggplot(final_clean, aes(x = year, y = yield, color = Coun
   theme(legend.position = "right")
 
 p_yield_county_time
+
+## fit linear model
+model_both <- lm(yield ~ temp + precip, data = final_clean)
+summary(model_both)
+
+# Residual diagnostic plots (4 plots)
+par(mfrow = c(2, 2))
+plot(model_both)
+par(mfrow = c(1, 1))
+
+# Predicted vs. Actual
+final_clean$predicted <- predict(model_both)
+
+p_pred_actual <- ggplot(final_clean, aes(x = predicted, y = yield)) +
+  geom_point(alpha = 0.6) +
+  geom_smooth(method = "lm", se = TRUE, color = "red") +
+  labs(title = "Predicted vs. Actual Yield",
+       x = "Predicted Yield (Temp + Precip)", y = "Actual Yield") +
+  theme_bw()
+
+p_pred_actual
+
+## fit linear model with precip log transformed
+model_both_precip_log <- lm(yield ~ temp + precip_log, data = final_clean)
+summary(model_both_precip_log)
+
+# Residual diagnostic plots (4 plots)
+par(mfrow = c(2, 2))
+plot(model_both_precip_log)
+par(mfrow = c(1, 1))
+
+# Predicted vs. Actual
+final_clean$predicted_precip_log <- predict(model_both_precip_log)
+
+p_pred_actual_prec_log <- ggplot(final_clean, aes(x = predicted_precip_log, y = yield)) +
+  geom_point(alpha = 0.6) +
+  geom_smooth(method = "lm", se = TRUE, color = "red") +
+  labs(title = "Predicted vs. Actual Yield",
+       x = "Predicted Yield (Temp + Precip)", y = "Actual Yield") +
+  theme_bw()
+
+p_pred_actual_prec_log
+
+## fit linear model with temp squared AND precip logged
+model_both_temp2 <- lm(yield ~ temp_squared + precip_log, data = final_clean)
+summary(model_both_temp2)
+
+# Residual diagnostic plots (4 plots)
+par(mfrow = c(2, 2))
+plot(model_both_temp2)
+par(mfrow = c(1, 1))
+
+# Predicted vs. Actual
+final_clean$predicted_temp2 <- predict(model_both_temp2)
+
+p_pred_actual_temp2 <- ggplot(final_clean, aes(x = predicted_temp2, y = yield)) +
+  geom_point(alpha = 0.6) +
+  geom_smooth(method = "lm", se = TRUE, color = "red") +
+  labs(title = "Predicted vs. Actual Yield",
+       x = "Predicted Yield (Temp + Precip)", y = "Actual Yield") +
+  theme_bw()
+
+p_pred_actual_temp2
+
+
+## fit linear model with temp squared and normal precip
+model_both_temp2_prec <- lm(yield ~ temp_squared + precip, data = final_clean)
+summary(model_both_temp2_prec)
+
+# Residual diagnostic plots (4 plots)
+par(mfrow = c(2, 2))
+plot(model_both_temp2_prec)
+par(mfrow = c(1, 1))
+
+# Predicted vs. Actual
+final_clean$predicted_temp2_prec <- predict(model_both_temp2_prec)
+
+p_pred_actual_temp2_prec <- ggplot(final_clean, aes(x = predicted_temp2_prec, y = yield)) +
+  geom_point(alpha = 0.6) +
+  geom_smooth(method = "lm", se = TRUE, color = "red") +
+  labs(title = "Predicted vs. Actual Yield",
+       x = "Predicted Yield (Temp + Precip)", y = "Actual Yield") +
+  theme_bw()
+
+p_pred_actual_temp2_prec
+
+
+# Random Effects Model
+# Make counties into factors
+final_clean <- final_clean %>% 
+  mutate(County = factor(County, levels = c("BUTTE", "COLUSA", "CONTRA COSTA", "FRESNO", "GLENN", 
+                                            "IMPERIAL", "KERN", "KINGS", "MADERA", "MERCED", "MONTEREY", 
+                                            "SACRAMENTO", "SAN BENITO", "SAN JOAQUIN", "SANTA CLARA", 
+                                            "SOLANO", "STANISLAUS", "SUTTER", "TEHAMA", "TULARE", 
+                                            "YOLO", "YUBA")))
+
+# run random effects model with temp squared AND precip logged
+simple_temp2 <- gls(yield ~ temp_squared, data = final_clean)
+simple_precip_log <- gls(yield ~ precip_log, data = final_clean)
+linearmodel <- gls(yield ~ temp_squared + precip_log, data = final_clean)
+re_model <- lme(yield ~ temp_squared + precip_log, 
+                random = ~1|County, data = final_clean)
+summary(re_model)
+
+# Compare models with AIC
+AIC(simple_temp2, simple_precip_log, linearmodel, re_model)
+
+
+
+
 
 
