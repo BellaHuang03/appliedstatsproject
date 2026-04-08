@@ -34,14 +34,14 @@ p_temp_dist
 # Distribution of precipitation
 p_precip_dist <- ggplot(final_clean, aes(x = precip)) +
   geom_histogram(bins = 20, fill = "darkorange", color = "white") +
-  labs(title = "Distribution of Precipitation",
+  labs(title = "Distribution of Precipitation from 2013-2023 per month",
        x = "Precipitation (in)", y = "Count") +
   theme_bw()
 p_precip_dist
 # Distribution of yield (response variable)
 p_yield_dist <- ggplot(final_clean, aes(x = yield)) +
   geom_histogram(bins = 20, fill = "forestgreen", color = "white") +
-  labs(title = "Distribution of Yield",
+  labs(title = "Distribution of Yield in TONS / ACRE",
        x = "Yield", y = "Count") +
   theme_bw()
 p_yield_dist
@@ -66,6 +66,7 @@ p_yield_temp <- ggplot(final_clean, aes(x = temp, y = yield)) +
        x = "Temperature (°F)", y = "Yield") +
   theme_bw()
 
+p_yield_temp
 # Yield ~ Precipitation
 p_yield_precip <- ggplot(final_clean, aes(x = precip, y = yield)) +
   geom_point(alpha = 0.5) +
@@ -73,6 +74,7 @@ p_yield_precip <- ggplot(final_clean, aes(x = precip, y = yield)) +
   labs(title = "Yield vs. Precipitation",
        x = "Precipitation (in)", y = "Yield") +
   theme_bw()
+p_yield_precip
 
 # Yield ~ County (boxplot, colored by county)
 p_yield_county <- ggplot(final_clean, aes(x = County, y = yield)) +
@@ -91,6 +93,7 @@ p_yield_year <- ggplot(final_clean, aes(x = year, y = yield)) +
   labs(title = "Yield vs. Year",
        x = "Year", y = "Yield") +
   theme_bw()
+p_yield_year
 
 # Patch relationship plots together
 (p_yield_temp | p_yield_precip) / (p_yield_county | p_yield_year)
