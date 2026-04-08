@@ -20,7 +20,7 @@ tomato_df_2013to2023 <- tomato_df %>%
   filter(between(Year,2013,2023)) %>% 
   filter(County != "OTHER (COMBINED) COUNTIES") %>% 
   filter(County != "OTHER COUNTIES") 
-write_csv(tomato_df_2013to2023, "ca_county_tyield_2013_2023_clean.csv")
+write_csv(tomato_df_2013to2023, "ca_county_yield_2013_2023_clean.csv")
 
 ## Precip & temp datasets [cleaned datasets already save in folder, no need to re-run]
 # precip
