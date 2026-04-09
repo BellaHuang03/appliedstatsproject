@@ -9,6 +9,7 @@ library(janitor)
 library(ggplot2)
 library(patchwork)
 library(ggpmisc)
+library(nlme)
 
 ### read datasets
 pcp_data <- read_csv(here("tavg_pcp_cleaned", "ca_county_pcp_2013_2023_clean.csv"))
@@ -215,7 +216,7 @@ plot(re_model)
 qqnorm(re_model)
 
 # Compare models with AIC
-AIC(simple_temp2, simple_precip_log, linearmodel, re_model)
+AIC(simple_temp2, simple_precip_log, linearmodel, re_model, sesaon_memod)
 
 # Predicted vs. Actual
 final_clean$predicted_re <- predict(re_model)
@@ -268,7 +269,7 @@ seasonlogprecip_dist <- ggplot(season_cleanlog, aes(x = precip_meanlog )) +
 
 seasonlogprecip_dist
 
-# does not change much with log transformation
+# does not change much with log transformation, will continue without
 
 
 ## relationship between variables
@@ -304,5 +305,41 @@ summary(model_season )
 AIC (model_season)
 
 
+# Residual diagnostic plots (2 plots)
+plot(model_season)
+qqnorm(model_season)
+
+
+# Random Effects Model for seasonal data
+# Make counties into factors
+season_clean1 <- season_clean %>% 
+  mutate(County = factor(county_name,
+      levels = c(
+        "Butte County","Colusa County","Contra Costa County",
+        "Fresno County","Glenn County","Imperial County","Kern County",
+        "Kings County","Madera County","Merced County","Monterey County", 
+        "Sacramento County","San Benito County","San Joaquin County", 
+        "Santa Clara County","Solano County","Stanislaus County",
+        "Sutter County","Tehama County","Tulare County","Yolo County",
+        "Yuba County")))
+
+season_clean2 <- season_clean1 %>%
+select(yield, tavg_mean, pcp_mean, County) %>%
+  as.data.frame()
+          
+
+str(season_clean1)
+# Run random effects model with seasonal averages across precip and temp
+
+sesaon_memod <- lme(yield ~ tavg_mean + pcp_mean, 
+                random = ~1|County, data = season_clean2)
+
+summary(sesaon_memod)
+
+# Residual diagnostic plots (2 plots)
+plot(sesaon_memod)
+qqnorm(sesaon_memod)
+
+AIC (sesaon_memod)
 
 
