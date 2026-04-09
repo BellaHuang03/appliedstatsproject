@@ -41,6 +41,7 @@ p_temp_dist <- ggplot(final_clean, aes(x = temp)) +
        x = "Temperature (°F)", y = "Count") +
   theme_bw()
 p_temp_dist
+
 # Distribution of precipitation
 p_precip_dist <- ggplot(final_clean, aes(x = precip)) +
   geom_histogram(bins = 20, fill = "darkorange", color = "white") +
@@ -48,6 +49,7 @@ p_precip_dist <- ggplot(final_clean, aes(x = precip)) +
        x = "Precipitation (in)", y = "Count") +
   theme_bw()
 p_precip_dist
+
 # Distribution of log transformed precipitation
 p_precip_log_dist <- ggplot(final_clean, aes(x = precip_log)) +
   geom_histogram(bins = 20, fill = "darkorange", color = "white") +
@@ -55,6 +57,7 @@ p_precip_log_dist <- ggplot(final_clean, aes(x = precip_log)) +
        x = "Precipitation (in)", y = "Count") +
   theme_bw()
 p_precip_log_dist
+
 # Distribution of yield (response variable)
 p_yield_dist <- ggplot(final_clean, aes(x = yield)) +
   geom_histogram(bins = 20, fill = "forestgreen", color = "white") +
@@ -84,6 +87,7 @@ p_yield_temp <- ggplot(final_clean, aes(x = temp, y = yield)) +
   theme_bw()
 
 p_yield_temp
+
 # Yield ~ Precipitation
 p_yield_precip <- ggplot(final_clean, aes(x = precip, y = yield)) +
   geom_point(alpha = 0.5) +
@@ -224,11 +228,52 @@ seasontemp_dist
 # Distribution of precipitation
 seasonprecip_dist <- ggplot(season_clean, aes(x = pcp_mean)) +
   geom_histogram(bins = 20, fill = "darkorange", color = "white") +
-  labs(title = "Distribution of Average Precipitation in Growgin Season from 2013-2023",
+  labs(title = "Distribution of Average Precipitation in Growing Season from 2013-2023",
        x = "Precipitation (in)", y = "Count") +
   theme_bw()
-p_precip_dist
 
+seasonprecip_dist
+
+
+#Log transform sesaonal precipitation data
+season_cleanlog <- season_clean %>% 
+  mutate(precip_meanlog = log(pcp_mean)) 
+
+# Distribution of log transformed precipitation
+
+seasonlogprecip_dist <- ggplot(season_cleanlog, aes(x = precip_meanlog )) +
+  geom_histogram(bins = 20, fill = "darkorange", color = "white") +
+  labs(title =
+  "Distribution of Average Precipitation in Growing Season from 2013-2023",
+       x = "Precipitation (in)", y = "Count") +
+  theme_bw()
+
+seasonlogprecip_dist
+
+# does not change much with log transformation
+
+
+## relationship between variables
+# Yield ~ Temperature
+season_yield_temp <- ggplot(season_clean, aes(x = tavg_mean, y = yield)) +
+  geom_point(alpha = 0.5) +
+  geom_smooth(method = "lm", se = TRUE, color = "steelblue") +
+  labs(title = "Yield vs. Temperature",
+       x = "Temperature (°F)", y = "Yield") +
+  theme_bw()
+
+season_yield_temp 
+
+
+# Yield ~ Precipitation
+sesaon_yield_precip <- ggplot(season_clean, aes(x = pcp_mean, y = yield)) +
+  geom_point(alpha = 0.5) +
+  geom_smooth(method = "lm", se = TRUE, color = "darkorange") +
+  labs(title = "Yield vs. Precipitation",
+       x = "Precipitation (in)", y = "Yield") +
+  theme_bw()
+
+sesaon_yield_precip
 
 
 # Fitting model
@@ -236,7 +281,10 @@ p_precip_dist
 model_season <- lm(yield ~ pcp_mean + tavg_mean, data =season_clean  )
 summary(model_season )
 
+
 # calculate AIC 
 AIC (model_season)
+
+
 
 
