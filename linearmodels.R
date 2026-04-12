@@ -216,7 +216,7 @@ plot(re_model)
 qqnorm(re_model)
 
 # Compare models with AIC
-AIC(simple_temp2, simple_precip_log, linearmodel, re_model, sesaon_memod)
+AIC(simple_temp2, simple_precip_log, linearmodel, re_model)
 
 # Predicted vs. Actual
 final_clean$predicted_re <- predict(re_model)
@@ -342,4 +342,6 @@ qqnorm(sesaon_memod)
 
 AIC (sesaon_memod)
 
+# Compare models with AIC
+AIC(simple_temp2, simple_precip_log, linearmodel, re_model, sesaon_memod)
 
