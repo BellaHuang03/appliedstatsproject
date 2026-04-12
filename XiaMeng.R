@@ -267,7 +267,12 @@ re_fig <- ggplot(final_clean, aes(x = predicted_re, y = yield)) +
 re_fig
 
 
+# Look to see temperature trend across counties for the 10 years
+temp_across_time <- season_clean %>% 
+  group_by(year) %>% 
+  summarise (tavg_year = mean(tavg_mean))
 
-
+# Results show that summarized across all the counties, there is no trend
+# in increasing temperatures, may need to look on an indiviudal county level
 
 
