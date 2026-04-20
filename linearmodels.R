@@ -294,6 +294,7 @@ sesaon_yield_precip <- ggplot(season_clean, aes(x = pcp_mean, y = yield)) +
 
 sesaon_yield_precip
 
+(seasontemp_dist + seasonprecip_dist) / (season_yield_temp + sesaon_yield_precip)
 
 # Fitting model
 
